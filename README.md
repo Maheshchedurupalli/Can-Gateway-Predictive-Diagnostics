@@ -195,4 +195,4 @@ Distributed under the MIT License. See [`LICENSE`](LICENSE).
 ## Contact
 
 **Mahesh Chedurupalli (Mahi)** · Embedded Systems Engineer
-[LinkedIn](https://www.linkedin.com/in/your-handle) · [GitHub](https://github.com/your-handle)
+[LinkedIn](https://www.linkedin.com/in/mahesh-chedurupalli-010453288/) · [GitHub](https://github.com/your-handle)
