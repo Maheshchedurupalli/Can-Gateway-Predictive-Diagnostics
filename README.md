@@ -140,8 +140,9 @@ cd gateway
 
 | ID (hex) | Name | DLC | Period | Signals |
 |---|---|---|---|---|
-| `0x100` | `<e.g. ENGINE_STATUS>` | 8 | 10 ms | `<rpm, temp, ...>` |
-| `0x200` | `<e.g. DIAG_FLAGS>` | 4 | 100 ms | `<flags>` |
+| `0x100` | `ENGINE_STATUS` | 8 | 10 ms | EngineSpeed, CoolantTemp, ThrottlePos |
+| `0x200` | `DIAG_FLAGS` | 4 | 100 ms | OverTempWarning, BusErrorWarning, HealthScore |
+
 
 Full definitions: [`dbc/`](dbc/)
 
