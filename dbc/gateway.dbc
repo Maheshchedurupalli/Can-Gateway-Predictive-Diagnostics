@@ -1,0 +1,17 @@
+VERSION ""
+
+NS_ :
+
+BS_:
+
+BU_: STM32_Node Linux_Node
+
+BO_ 256 ENGINE_STATUS: 8 STM32_Node
+ SG_ EngineSpeed : 0|16@1+ (0.25,0) [0|16383.75] "rpm" Linux_Node
+ SG_ CoolantTemp : 16|8@1+ (1,-40) [-40|215] "degC" Linux_Node
+ SG_ ThrottlePos : 24|8@1+ (0.4,0) [0|100] "%" Linux_Node
+
+BO_ 512 DIAG_FLAGS: 4 Linux_Node
+ SG_ OverTempWarning : 0|1@1+ (1,0) [0|1] "" STM32_Node
+ SG_ BusErrorWarning : 1|1@1+ (1,0) [0|1] "" STM32_Node
+ SG_ HealthScore : 8|8@1+ (1,0) [0|100] "%" STM32_Node
