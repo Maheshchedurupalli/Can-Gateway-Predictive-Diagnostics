@@ -1,5 +1,5 @@
 # System Architecture
-
+See also: [CAN basics](docs/can-basics.md)
 ## Block diagram
 
 ```mermaid
